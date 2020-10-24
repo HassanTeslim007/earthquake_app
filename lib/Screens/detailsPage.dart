@@ -40,6 +40,7 @@ class _DetailspageState extends State<Detailspage> {
                   snippet: "magnitude: ${widget.mag}",
                   onTap: _launchURL
               ),
+
           )
       );
 
@@ -48,11 +49,6 @@ class _DetailspageState extends State<Detailspage> {
 
   void _launchURL() async {
     String url = '${widget.url}';
-    // if (await canLaunch(url)) {
-    //   await launch(url, forceWebView: true);
-    // } else {
-    //   print('Could not launch $url');
-    // }
     try{
       if (await canLaunch(url)) {
           await launch(url, forceWebView: true, enableJavaScript: true);
@@ -65,8 +61,12 @@ class _DetailspageState extends State<Detailspage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("${widget.title}"),
+      appBar: PreferredSize(
+        preferredSize: Size(double.infinity, 50),
+        child: AppBar(
+          backgroundColor: Colors.brown[200],
+          title: Text("${widget.title}"),
+        ),
       ),
       body: Stack(
         children: [
@@ -76,7 +76,7 @@ class _DetailspageState extends State<Detailspage> {
                   widget.longitude,
                   widget.latitude,
                 ),
-                zoom: 10),
+                zoom: 9),
             onMapCreated: _onMapCreated,
             markers: markers,
           ),
@@ -97,9 +97,9 @@ class _DetailspageState extends State<Detailspage> {
             padding: const EdgeInsets.only(bottom: 50.0, right: 50, left: 20) ,
             alignment: Alignment.bottomLeft,
             child: FloatingActionButton.extended(
-              label: Text("Details"),
+              label: Text("Detail"),
               onPressed: _launchURL,
-              backgroundColor: Colors.lightBlue,
+              backgroundColor: Colors.brown,
               icon:  Icon(Icons.more),
             ),
           )

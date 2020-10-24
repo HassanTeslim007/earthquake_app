@@ -29,6 +29,7 @@ dependencies:
   google_maps_flutter: ^0.5.24+1
   flutter_spinkit: ^4.1.2
   splashscreen: ^1.2.0
+  step_progress_indicator: ^0.2.4+7
 
 
 
