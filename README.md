@@ -3,9 +3,9 @@
 A new Flutter application.
 
 # ScreenShots #
-![Screenshot1](https://user-images.githubusercontent.com/64636170/96289639-526d0e80-0fdd-11eb-84ef-a2846f8f43bb.png)
-![Screenshot2](https://user-images.githubusercontent.com/64636170/96289663-5ac54980-0fdd-11eb-8c6d-7792ab9f2e76.png)
-![Screenshot3](https://user-images.githubusercontent.com/64636170/96289678-5ef16700-0fdd-11eb-8dcd-6c604e542c11.png)
-![Screenshot4](https://user-images.githubusercontent.com/64636170/96289697-64e74800-0fdd-11eb-9311-e147d38f3516.png)
-![Screenshot5](https://user-images.githubusercontent.com/64636170/96289718-6d3f8300-0fdd-11eb-9ac7-09ed6ca92d41.png)
+![Screenshot_20201024-182829](https://user-images.githubusercontent.com/64636170/97088279-b1f39b80-1627-11eb-958e-2a6e345ec388.png)
+![Screenshot_20201024-182838](https://user-images.githubusercontent.com/64636170/97088280-b3bd5f00-1627-11eb-9647-8016abd6b66d.png)
+![Screenshot_20201024-182919](https://user-images.githubusercontent.com/64636170/97088282-b455f580-1627-11eb-9651-e8bd1a5d5e15.png)
+![Screenshot_20201024-182949](https://user-images.githubusercontent.com/64636170/97088284-b4ee8c00-1627-11eb-8e42-8ef9aae34dc3.png)
+![Screenshot_20201024-183008](https://user-images.githubusercontent.com/64636170/97088286-b6b84f80-1627-11eb-936e-caf295fd0bd8.png)
 
